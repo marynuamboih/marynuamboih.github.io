@@ -1,0 +1,17 @@
+/*============ Google fonts ============*/
+/*Poppins and Cursive*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap');
+/*Calling syntax:
+    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Poppins', sans-serif;
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar .logo {
+    font-family: 'Dancing Script', cursive;
+}
