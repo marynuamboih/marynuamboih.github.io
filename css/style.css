@@ -44,18 +44,32 @@ header {
     cursor: pointer;
 }
 
+.nav-bar .logo a:hover {
+    color: rgb(228, 231, 13);
+}
+
 .hero {
     height: 100vh;
     font-family: 'Poppins', sans-serif;
     color: white;
 }
 
-footer p {
+footer {
+    padding: auto;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-footer p a {
+.copy-right a {
     text-decoration: none;
+}
+
+.copy-right a:hover {
+    color: rgb(228, 231, 13);
+}
+
+.socials {
+    padding: 8px;
 }
