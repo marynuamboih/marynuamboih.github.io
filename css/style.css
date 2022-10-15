@@ -40,6 +40,9 @@ header {
     font-size: 2rem;
     font-weight: bold;
     padding-left: 6px;
+}
+
+.nav-bar .logo a {
     cursor: pointer;
 }
 
