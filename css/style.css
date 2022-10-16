@@ -50,10 +50,21 @@ header {
     color: rgb(228, 231, 13);
 }
 
+.container {
+    z-index: 0;
+    display: grid;
+    background-color: white;
+    padding: 10px;
+    margin: 0px 40px 0 40px;
+    opacity: 0.6;
+}
+
 .hero {
+    z-index: 12;
+    margin: auto;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: black;
 }
 
 .lead {
