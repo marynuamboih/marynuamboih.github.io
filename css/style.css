@@ -61,10 +61,16 @@ header {
 
 .hero {
     z-index: 12;
+    display: flex;
+    justify-content: space-between;
     margin: auto;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
     color: black;
+}
+
+.text-content {
+    
 }
 
 .lead {
