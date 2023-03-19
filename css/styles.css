@@ -71,13 +71,13 @@ a {
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 3.2rem;
   margin-bottom: 20px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-bottom: 20px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -99,6 +99,7 @@ a {
 
 .grid-item:hover {
     transform: scale(1.04);
+    filter: drop-shadow(0 0 1rem crimson);
 }
    
 .gallery .grid img {
