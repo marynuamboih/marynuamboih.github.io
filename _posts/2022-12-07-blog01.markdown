@@ -3,6 +3,7 @@ layout: post
 title:  "Blog Test 01"
 date:   2022-12-07
 categories: jekyll update
+permalink: /blog-test-01/
 ---
 
 Blogpost test 01
