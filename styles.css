@@ -24,13 +24,13 @@ header {
   padding: 18px 12px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .logo {
   font-size: 2rem;
   font-weight: bold;
-}
-
-.logo > a {
-    text-decoration: none;
 }
 
 .menu {
@@ -60,7 +60,7 @@ header {
 
 /* Hero */
 .hero {
-  height: 500px;
+  min-height: 90vh;
   background: url(/img/floral-background.jpg) no-repeat center center/cover;
   display: flex;
   flex-direction: column;
@@ -113,4 +113,8 @@ footer {
   color: #fff;
   padding: 20px 0;
   text-align: center;
+}
+
+.social-icons {
+    font-size: 1.5rem;
 }
